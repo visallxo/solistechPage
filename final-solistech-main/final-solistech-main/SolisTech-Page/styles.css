@@ -1,0 +1,70 @@
+form {
+    max-width: 600px;
+    margin: 0 auto; 
+    padding: 20px;
+    position: relative; 
+    z-index: 2; 
+}
+label {
+    display: block;
+    text-align: start;
+    margin-bottom: 5px; 
+}
+input, select {
+    width: calc(100% - 40px); 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+.form-container {
+    padding-left: 20px; 
+    padding-right: 20px;
+}
+/* #solid::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105%;
+    background: rgba(0, 0, 0, 0.7); 
+    z-index: 1; 
+} */
+.image-section {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    /* height: 100vh;  */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #f8f9fa; 
+    position: relative;
+}
+
+.image-section img {
+    max-width: 100%;
+    max-height: 90%; 
+    object-fit: contain; 
+}
+
+.card{
+    background-color: transparent;
+    border-radius: 20px;
+    border-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.card-h5{
+    margin-top: 10px;
+}
+
+.card-p{
+    text-align: center;
+}
